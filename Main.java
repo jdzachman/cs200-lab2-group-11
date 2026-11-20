@@ -5,7 +5,7 @@ import java.util.Scanner;
  * that matches the user's role.
  */
 public class Main {
-
+ 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); 
         DataCenter data = new DataCenter();

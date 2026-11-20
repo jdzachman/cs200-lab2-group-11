@@ -78,7 +78,7 @@ public class Member {
         String status = suspended ? "SUSPENDED" : "ACTIVE";
 
         return number + " " + name + ", " + street + ", " + city + ", " + state + " " + zip
-        " [" + status + "]";
+       + " [" + status + "]";
     }
     
 }

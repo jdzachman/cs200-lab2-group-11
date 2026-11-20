@@ -74,7 +74,7 @@ public class ProviderMenu {
         while (service == null){
             String code = ask("Service code (6 digits): ");
             service = data.findService(code);
-            if (service == null) ={
+            if (service == null) {
                 System.out.println("Error: that service code does not exist.");
             } 
             else{
